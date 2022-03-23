@@ -1,0 +1,13 @@
+.grid-container{
+    display: grid;
+    width: 50%;
+    margin: auto;
+    grid-template-columns: [inicio] 100px [linea2] 100px [linea3] auto [fin];
+    grid-template-rows: [r-start] 100px [r-end] 30px [rlines-3] 50px [r-fin];
+}
+
+.grid-container__element{
+background-color: salmon;
+border: solid blueviolet;
+padding: 5px;
+}
